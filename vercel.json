@@ -2,7 +2,6 @@
     "rewrites": [
         {"source": "/", "destination": "https://grug-landing-page.vercel.app/"},
         {"source": "/reports/:match*", "destination": "https://gamefi-reports.vercel.app/:match*"},
-        {"source": "/:match*", "destination": "https://grug-landing-page.vercel.app/:match*"},
-
+        {"source": "/:match*", "destination": "https://grug-landing-page.vercel.app/:match*"}
     ]
   }
