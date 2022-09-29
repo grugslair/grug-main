@@ -1,0 +1,6 @@
+{
+    "rewrites": [
+      {"source": "/:match*", "destination": "https://grug-landing-page.vercel.app/:match*"},
+      {"source": "/reports/:match*", "destination": "https://gamefi-reports.vercel.app/:match*"}
+    ]
+  }
